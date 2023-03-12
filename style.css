@@ -2,3 +2,38 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #e67373;
+}
+
+.main-box{
+    display: grid;
+    grid-template-columns: repeat(4,20px) ;
+    grid-template-rows: repeat(5,20px);
+
+}
+
+button{
+    padding: 10px;
+    margin:5px;
+    width: 60px;
+    border:none;
+    border-radius: 90px;
+    background: linear-gradient(145deg, #ff8989, #e67373);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    /*box-shadow:  20px 20px 22px #8f4848,
+             -20px -20px 22px #ffb8b8; */
+    cursor:pointer;
+    color: aliceblue;
+    font-size: 200%;
+}
+
+
+.output-screen{
+    background-color: #ff8989;
+    padding: 20px;
+    
+}
