@@ -4,15 +4,46 @@
 }
 
 body{
-    display: flex;
-    justify-content: center;
     background-color: #e67373;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-box{
+ 
+    width: 450px;
+    align-items: center;
+    height: auto;
+    padding: 4px;
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+.output-screen{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+    width: 380px;
+    height: auto;
+    border: none;
+    border-radius: 1rem;
+    background: #f17d7d;
+    box-shadow: inset 20px 20px 60px #cd6a6a,
+    inset -20px -20px 60px #ff9090;
+    padding: 20px;
+
+    font-size: 250%;
+}
+
+.keypad{
     display: grid;
-    grid-template-columns: repeat(4,20px) ;
-    grid-template-rows: repeat(5,20px);
+    grid-template-columns: repeat(4,100px) ;
+    grid-template-rows: repeat(5,70px);
+    margin:auto;
+    width: fit-content;
 
 }
 
@@ -32,8 +63,6 @@ button{
 }
 
 
-.output-screen{
-    background-color: #ff8989;
-    padding: 20px;
-    
+.span-two{
+    grid-row: span 2;
 }
